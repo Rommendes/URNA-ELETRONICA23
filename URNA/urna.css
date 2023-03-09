@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    font-size:  calc(0.8em + 0.5vw);
+}
+@media only screen and (max-width: 480px) {
+  img {
+    max-width: 100%;
+    width: 500px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+}
+header{
+flex: 1;
+background-color: #1B305A;
+text-align: center;
+padding: 10px;
+color: #FFFFFF;
+}
+
+.container{
+  background-color: #E6ECF0;
+  flex-direction: row;
+  display: flex;
+  
+}
+.div1{
+  flex: 2;
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+  padding-top: 20px;
+
+}
+.div2{
+  flex: 2;
+  background-color: #FFFFFF;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+  padding-top: 20px;
+  
+}
+.div2, img{
+  text-align: center;
+}
+.paragrafo{
+  text-align: justify;
+}
+.di{
+  flex: 1;
+}
+.dv{
+flex: 1;
+
+}
+.tab {
+    border-collapse: collapse;
+    margin: 0 auto ;
+}
+caption{
+  text-align: center;
+}
+th, td {
+    border: 1px solid;
+    padding: 10px;
+        }
+aside{
+    margin-left: 30px;
+}
+ img{
+  padding-left: auto;
+  padding-top: auto;
+ }
+footer{
+text-align: center;
+padding-top: 10px;
+}

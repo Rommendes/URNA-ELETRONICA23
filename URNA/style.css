@@ -1,0 +1,199 @@
+
+@charset "UTF-8";
+body{
+background-position: left bottom;
+background-position: center bottom;
+}
+@media screen and (min-width: 300px) {
+
+  }
+
+@keyframes pisca{
+    0% { opacity: 0.2;}
+    50% { opacity: 1;}
+    100% { opacity: 0.2;}
+}
+body {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E6ECF0;
+    width: 100%;
+}
+
+.container{
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+h1{
+text-align: center;
+padding: 30px;
+background-color: #1B305A;
+color: #fff;
+
+
+}
+.urna{
+    background-color: #dbd5c9;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border-left: 400px;
+    border-right: 400px;
+    padding-top: 30px;
+    
+
+}
+
+.tela{
+    width:500px;
+    height: 320px;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    border: 2px solid #555;   
+    display: flex;
+    flex-direction: column; /* alinha o conteúdo para baixo */
+    justify-content: center;
+  
+}
+
+.teclado{
+    background-color: #403A3A;
+    margin-left: 30px;
+
+}
+.tecladoBotao{
+    width: 70px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #555;
+}
+
+.tecladoLinha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.botaoBranco{
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+.botaoCorrige{
+    background-color: #f09046;
+    color: #000;
+    font-size: 15px;
+}
+
+.botaoConfirma{
+background-color: #48c079;
+color: #000;
+font-size: 15px;
+width: 90px;
+height: 50px;
+
+}
+
+.divisao1{
+    flex: 1;
+    display: flex;
+}
+
+.divisao1-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.divisao1-rightImg{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.divisao1-image{
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.divisao1-image img{
+    width: 100%;
+}
+.divisao1-image.small{
+    width: 80%;
+    font-size: 12px;
+}
+
+.divisao1-1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+  
+}
+.divisao1-2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divisao1-3{
+    height: 50px;
+    display: flex;
+}
+.numero{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}   
+.pisca{
+    animation-name: pisca;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.divisao1-4{
+    flex: 1;
+    line-height: 30px;
+    
+}
+
+.divisao2 {
+    height: 50px;
+    font-size: 14px;
+    border-top:  2px solid #000;
+    padding-left: 10px;
+}
+
+.avisoGrande {
+    font-size:  1.7em;
+    font-weight: bold;
+    text-align: center;
+}
+.avisoGigante{
+    font-size: 70px;
+    font-weight: bold;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

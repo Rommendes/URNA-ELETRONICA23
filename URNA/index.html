@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scale=0">
+    <title>URNA ELETRÔNICA</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="urna.html">
+  
+</head>
+
+<body>
+
+<main container> 
+<h1> URNA ELETRÔNICA</h1>
+    <div class="urna">
+        <div class="tela">
+            <div class="divisao1">
+                <div class="divisao1-left">
+                    <div class="divisao1-1">
+                        <span>SEU VOTO PARA</span>
+                    </div>
+                    <div class="divisao1-2">
+                        <span>VEREADOR</span>
+                    </div>
+                    <div class="divisao1-3">
+                        <div class="numero pisca"></div>
+                        <div class="numero "></div>
+                    </div >
+                    <div class="divisao1-4">
+                    Nome: Fulano de tal <br>
+                    Partido: XXX <br>
+                    Vice-prefeito: Silcrano 
+                    </div>
+
+                </div>
+                <div class="divisao1-rightImg">
+                    <div class="divisao1-image">
+                        <img src="imgCandidatos/Trump.jpg" alt="">
+                        Prefeito
+                    </div>
+                    <div class="divisao1-image small">
+                        <img src="imgCandidatos/MargaretThatcher.jpg" alt="">
+                       Vice-prefeito
+                    </div>
+                </div>
+            </div>
+            <div class="divisao2">
+            Aperte a tecla: <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CONFIRMA para CONFIRMAR este voto <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CORRIGE para REINICIAR este voto.
+            
+            </div>
+
+        </div>
+
+        <div class="teclado">
+            <div class="tecladoLinha">
+                <div class="tecladoBotao" onclick="clicou('1')">1</div>
+                <div class="tecladoBotao "onclick="clicou('2')" >2</div>
+                <div class="tecladoBotao" onclick="clicou('3')">3</div>
+            </div>
+            <div class="tecladoLinha">
+                <div class="tecladoBotao" onclick="clicou('4')">4</div>
+                <div class="tecladoBotao" onclick="clicou('5')">5</div>
+                <div class="tecladoBotao" onclick="clicou('6')">6</div>
+            </div>
+            <div class="tecladoLinha">
+                <div class="tecladoBotao" onclick="clicou('7')">7</div>
+                <div class="tecladoBotao" onclick="clicou('8')">8</div>
+                <div class="tecladoBotao" onclick="clicou('9')">9</div>
+            </div>
+            <div class="tecladoLinha">
+                <div class="tecladoBotao" onclick="clicou('0')">0</div>
+            </div>
+            <div class="tecladoLinha">
+                <div class="tecladoBotao botaoBranco" onclick="branco()">BRANCO</div>
+                <div class="tecladoBotao botaoCorrige"onclick="corrige()">CORRIGE</div>
+                <div class="tecladoBotao botaoConfirma" onclick="confirma()">CONFIRMA</div>
+            </div>
+        </div>
+    </div>
+</main>
+    <script src="etapas.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
