@@ -199,3 +199,30 @@ height: 50px;
     justify-content: center;
     align-items: center;
 }
+a button{
+    flex: 1;
+    background-color:#E6ECF0; 
+   
+    cursor: pointer;
+    font-size: 18px;
+    border:solid #E6ECF0 5px;
+    font-size: 21px medium;
+    padding: 5px;
+    border: flex;
+    text-align: right;
+    margin-left: 400px;
+
+ 
+}
+a button:hover{
+    border-top: #E6ECF0;
+    border-left: #E6ECF0;
+    border-right: #E6ECF0;
+    background-color: #E6ECF0;
+    border-color: #1B305A;
+    text-transform: uppercase;
+}   
+
+.material-symbols-outlined {
+  font-size: 20px;
+}
